@@ -8,6 +8,11 @@ gem "afmotion" # Networking
 # Debugging tools
 gem "newclear" # Completely wipe out the simulator and rebuild
 
+group :build do
+  gem 'cocoapods', '0.34.4'
+  gem 'motion-cocoapods'
+end
+
 # Optional
 
 # gem "ProMotion-form"
